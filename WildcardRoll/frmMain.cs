@@ -293,7 +293,7 @@ namespace WildcardRoll
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/RekzaiSharp/WildcardRoll");
+            Process.Start("https://github.com/Shawak/WildcardRoll");
         }
 
         private void btnAddCollection_Click(object sender, EventArgs e)
