@@ -3,7 +3,7 @@ A automatic roll bot for the wow private server project ascension. It works full
 
 ### Downloading
 
-Releases of the software can be found on the [release section](https://github.com/RekzaiSharp/WildcardRoll/releases).
+Releases of the software can be found on the [release section](https://github.com/Shawak/WildcardRoll/releases).
 
 ### How to use?
 
@@ -20,8 +20,8 @@ Now press the "Roll!" button and you are good to go.
 
 ![screenshot][screenshot]
 
-[screenshot]: https://github.com/RekzaiSharp/WildcardRoll/blob/master/screenshot.jpg "WildcardRoll"
+[screenshot]: https://github.com/Shawak/WildcardRoll/blob/master/screenshot.jpg "WildcardRoll"
 
 ### License
 
-WildcardRoll is licensed under the [MIT License](https://github.com/RekzaiSharp/WildcardRoll/blob/master/LICENSE.md).
+WildcardRoll is licensed under the [MIT License](https://github.com/Shawak/WildcardRoll/blob/master/LICENSE.md).
