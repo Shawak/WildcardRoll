@@ -42,6 +42,9 @@ namespace WildcardRoll
 
         public void AddSpell(Spell spell)
         {
+            if (Spells.Contains(spell))
+                return;
+
             if (Spells.Count < 5)
                 Spells.Add(spell);
         }

@@ -37,6 +37,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new WildcardRoll.SetTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -138,6 +139,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.linkLabel2);
             this.tabPage1.Controls.Add(this.linkLabel1);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.btnRoll);
@@ -150,15 +152,26 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(255, 12);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(108, 17);
+            this.linkLabel2.TabIndex = 19;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "WildcardSearch";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(165, 12);
+            this.linkLabel1.Location = new System.Drawing.Point(166, 12);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(200, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(87, 17);
             this.linkLabel1.TabIndex = 18;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Visit us on GitHub for updates!";
+            this.linkLabel1.Text = "WildcardRoll";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // groupBox2
@@ -229,6 +242,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(6, 49);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 64;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(510, 844);
@@ -245,6 +259,7 @@
             // 
             this.dataGridViewCheckBoxColumn1.DataPropertyName = "Enabled";
             this.dataGridViewCheckBoxColumn1.HeaderText = "Enabled";
+            this.dataGridViewCheckBoxColumn1.MinimumWidth = 6;
             this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
             // 
             // dataGridViewTextBoxColumn6
@@ -252,6 +267,7 @@
             this.dataGridViewTextBoxColumn6.DataPropertyName = "Spell1";
             this.dataGridViewTextBoxColumn6.HeaderText = "Spell1";
             this.dataGridViewTextBoxColumn6.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
             this.dataGridViewTextBoxColumn6.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -262,6 +278,7 @@
             this.dataGridViewTextBoxColumn7.DataPropertyName = "Spell2";
             this.dataGridViewTextBoxColumn7.HeaderText = "Spell2";
             this.dataGridViewTextBoxColumn7.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
             this.dataGridViewTextBoxColumn7.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -272,6 +289,7 @@
             this.dataGridViewTextBoxColumn8.DataPropertyName = "Spell3";
             this.dataGridViewTextBoxColumn8.HeaderText = "Spell3";
             this.dataGridViewTextBoxColumn8.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             this.dataGridViewTextBoxColumn8.ReadOnly = true;
             this.dataGridViewTextBoxColumn8.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -282,6 +300,7 @@
             this.dataGridViewTextBoxColumn9.DataPropertyName = "Spell4";
             this.dataGridViewTextBoxColumn9.HeaderText = "Spell4";
             this.dataGridViewTextBoxColumn9.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
             this.dataGridViewTextBoxColumn9.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -292,6 +311,7 @@
             this.dataGridViewTextBoxColumn10.DataPropertyName = "Spell5";
             this.dataGridViewTextBoxColumn10.HeaderText = "Spell5";
             this.dataGridViewTextBoxColumn10.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
             this.dataGridViewTextBoxColumn10.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -457,6 +477,7 @@
         private System.Windows.Forms.Button btnAddCollection;
         private System.Windows.Forms.ComboBox collectionComboBox;
         private System.Windows.Forms.BindingSource collectionBindingSource;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 

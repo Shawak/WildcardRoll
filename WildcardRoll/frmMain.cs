@@ -12,7 +12,7 @@ namespace WildcardRoll
 {
     public partial class frmMain : Form
     {
-        static string VERSION = "v1.1.0a";
+        static string VERSION = "v1.1.0b";
 
         Memory Mem = new Memory();
         PictureBox[] pbs;
@@ -294,6 +294,12 @@ namespace WildcardRoll
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("https://github.com/Shawak/WildcardRoll");
+        }
+
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/Shawak/WildcardSearch");
         }
 
         private void btnAddCollection_Click(object sender, EventArgs e)
