@@ -83,6 +83,7 @@ namespace WildcardRoll
             { 2641, "Dismiss Pet" },
             { 6991, "Feed Pet" },
             { 982, "Revive Pet" },
+            { 1462, "Beast Lore" },
         } select e.Key).ToList();
 
         public static Dictionary<int, Spell> Spells = (from spell in new Dictionary<int, string>() {
