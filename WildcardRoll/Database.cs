@@ -10,6 +10,7 @@ namespace WildcardRoll
             // General
             { 5019, "Shoot" },
             { 6603, "Auto Attack" },
+            { 2764, "Throw" },
             { 107, "Block" },
             { 81, "Dodge" },
             { 674, "Dual Wield" },
